@@ -13,5 +13,5 @@ class Genre extends Model
     protected $fillable = ['name', 'is_active'];
     protected $dates = ['deleted_at'];
     protected $casts = ['id' => 'string'];
-    protected $incrementing = false;
+    public $incrementing = false;
 }
